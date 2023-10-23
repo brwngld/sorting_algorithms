@@ -42,4 +42,8 @@ typedef enum bool
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void insertion_sort_list(listint_t **list);
 
+/** Task 2 **/
+void selection_sort(int *array, size_t size);
+void swap_ints(int *a, int *b);
+
 #endif /* SORT_h */
